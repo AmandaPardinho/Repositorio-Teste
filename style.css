@@ -22,7 +22,13 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #4cfbb4;
 }
 
 .menu-hamburguer{
@@ -41,7 +47,7 @@
 label span{
     position: absolute;
     display: block;
-    height: 0.69rem;
+    height: 0.6rem;
     width: 3rem;
     border-radius: 1.9rem;
     background: #642c93;
@@ -53,13 +59,23 @@ label span:nth-child(1){
 }
 
 label span:nth-child(2){
-    top: 0.5rem;
-}
-
-label span:nth-child(3){
     top: 1rem;
 }
 
-.menu-hamburguer{
-    
+label span:nth-child(3){
+    top: 2rem;
 }
+
+/*.menu-hamburguer:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 0.5rem;
+}
+
+.menu-hamburguer:checked + label span:nth-child(2){
+    opacity: 0;
+}
+
+.menu-hamburguer:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 0.5rem;
+}*/
