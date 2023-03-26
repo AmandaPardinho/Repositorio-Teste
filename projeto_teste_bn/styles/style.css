@@ -1,0 +1,86 @@
+body{
+    background-color: #2589BD;
+    color: #f4f7fb;
+}
+
+.usuario{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+}
+
+.logo-header{
+    width: 7.5rem;
+    height: 7.5rem;
+    display: inline-block;
+    position: absolute;
+    padding: 0.3rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #4cfbb4;
+}
+
+.menu-hamburguer{
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox-menu{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 3rem;
+    width: 3rem;
+}
+
+label span{
+    position: absolute;
+    display: block;
+    height: 0.6rem;
+    width: 3rem;
+    border-radius: 1.9rem;
+    background: #642c93;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1){
+    top: 0;
+}
+
+label span:nth-child(2){
+    top: 1rem;
+}
+
+label span:nth-child(3){
+    top: 2rem;
+}
+
+/*.menu-hamburguer:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 0.5rem;
+}
+
+.menu-hamburguer:checked + label span:nth-child(2){
+    opacity: 0;
+}
+
+.menu-hamburguer:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 0.5rem;
+}*/
