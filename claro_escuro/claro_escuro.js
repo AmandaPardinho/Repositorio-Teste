@@ -1,5 +1,5 @@
 function toggleMode(){
-    var link = document.getElementsByTagName("link")[1];
+    var link = document.getElementsByTagName("link")[0];
     var currentMode = link.getAttribute("href");
 
     if(currentMode == "claro.css"){
