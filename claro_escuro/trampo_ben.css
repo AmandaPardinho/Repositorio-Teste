@@ -31,11 +31,13 @@ main {
     display: block;
     margin-left: 70%;
     margin-top: 10%;
+    
   }
 
   .dropdown-content{
+    display: none;
     position: absolute;
-    
+    overflow: hidden;
     background-color: #cacaca;
     color: #fff;
     min-width: 160px;
