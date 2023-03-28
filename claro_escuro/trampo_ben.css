@@ -10,8 +10,10 @@ main {
 /*header*/
 .logo1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
+    margin-top: 10%;
+
 }
 
 .dropbtn {
@@ -28,18 +30,17 @@ main {
     position: absolute;
     display: block;
     margin-left: 70%;
+    margin-top: 10%;
   }
 
   .dropdown-content{
-    display: none;
     position: absolute;
-    overflow: hidden;
-    background-color: #000;
+    
+    background-color: #cacaca;
     color: #fff;
     min-width: 160px;
     max-height: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
     padding: 16px;
   }
 
