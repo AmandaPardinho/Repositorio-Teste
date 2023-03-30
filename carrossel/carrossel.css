@@ -1,0 +1,18 @@
+.container{
+    margin: 5rem;
+}
+.carrossel{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 20rem;
+}
+
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
